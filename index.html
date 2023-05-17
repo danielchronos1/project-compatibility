@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assests/styles/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section>
+      <div class="card-container">
+        <form action="">
+          <div class="card-payment">
+            <h1 class="card-payment-total">Total payment:</h1>
+            <h2 class="card-payment-value">248.68$</h2>
+            <div class="product-shipping">
+              <div class="product-price">
+                <h1 class="heading-gray">Product price:</h1>
+                <h2 class="cost-style">200$</h2>
+              </div>
+
+              <div class="shipping">
+                <h1 class="heading-gray">Shipping:</h1>
+                <h2 class="cost-style">48.68$</h2>
+              </div>
+            </div>
+            <div class="btn-wrapper">
+            <input class="payment-btn" type="submit" value="Proceed" />
+            </div>
+          </div>
+          <div class="card-credit">
+                <div class="card-leftside">
+                    <label for="card-number">Card number</label>
+                    <input name="card-number" type="text" pattern="^4[0-9]{12}(?:[0-9]{3})?$" placeholder="0000-0000-0000-0000">
+                    <label for="card-name">Card holder</label>
+                    <input name="card-name" type="text" placeholder="e.g. Jabe Green">
+                    <label>Expiration date</label>
+                    <div class="expiration-date">
+                        <input name="expiration-date-months" type="text">
+                        <input name="expiration-date-years" type="text">
+                    </div>
+                    <a class="https-card" href="">HTTPS/SSL - Secure connection</a>
+                </div>
+
+                <div class="card-rightside">
+                    <img class="visa-img" src="assests/images/VISA.svg" alt="">
+                    <img class="card-chip" src="assests/images/chip.svg" alt="">
+                    <label for="">CVV/CVC</label>
+                    <input type="text" placeholder="***-*" pattern="[0-9]{3}-[0-9]{1}">
+                    <p>3 or 4 digits</p>
+                </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

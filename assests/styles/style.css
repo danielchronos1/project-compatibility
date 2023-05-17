@@ -1,0 +1,100 @@
+@import url('https://fonts.cdnfonts.com/css/varela');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela', sans-serif;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    width: 950px;
+    height: 379px;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 38px 28px 44px;
+    background: #F6F6F6;
+    border-radius: 25px;    
+}
+
+.card-payment {
+    margin-top: 19px;
+}
+
+.card-credit {
+    display: flex;
+    width: 645px;
+}
+
+.product-shipping {
+    display: flex;
+    gap: 56px;
+    margin-bottom: 56px;
+}
+
+.card-payment-total {
+    margin: 0;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    color: #616161;
+}
+
+.card-payment-value {
+    margin: 0;
+    margin-bottom: 41px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #3A3A3A;
+}
+
+.heading-gray {
+    margin: 0;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 27px;
+    color: #616161;
+}
+
+
+.cost-style {
+    margin: 0;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #3A3A3A;
+}
+
+.btn-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.payment-btn {
+    position: relative;
+    width: 163px;
+    height: 79px;
+    background: 
+    linear-gradient(#fff 0 0) padding-box, 
+    linear-gradient(to right, #FCEE2180, #00924580) border-box;
+    padding: 10px;
+    border: 3px solid transparent;
+    border-radius: 15px;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    color: #3A3A3A;
+}
+
+.card-credit {
+    background: linear-gradient(244.85deg, #FCEE21 0%, #009245 100%);
+    box-shadow: -8px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
